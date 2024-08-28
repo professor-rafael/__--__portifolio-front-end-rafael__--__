@@ -8,7 +8,32 @@
     <title>Portifolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    body{
+    min-height:14vh;
+    }
 
+    ::-webkit-scrollbar 
+    {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track 
+    {
+        background: green;
+    }
+
+    ::-webkit-scrollbar-thumb 
+    {
+        background: #323683;
+        border-radius: 14px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover 
+    {
+        opacity: .95;
+    }
+  </style>
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
@@ -26,10 +51,14 @@
             CSS. Ajudo pequenos trabalhos a
             colocarem em prática boas ideias.</p>
             <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Contatos</h2>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
                 <a class="apresentacao__links__link" href="https://github.com/professor-rafael">
                     <img src="github.png">
                     Github
+                </a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/rafael-assis-santos-3384b220a/">
+                    <img src="linkedin.png">
+                    linkedin
                 </a>
                 <a class="apresentacao__links__link" href="https://chatgpt.com/">
                     <img src="ia.png" height="10%" width="9%">
@@ -40,7 +69,7 @@
         <img src="ras.png" height="50%" width="50%" alt="Foto do professor-rafael programando">
     </main>
     <footer class="rodape">
-        <p>Estilizado por professor-rafael</p>
+        <p>Estilizado por professor-rafael.</p>
     </footer>
 </body>
 
