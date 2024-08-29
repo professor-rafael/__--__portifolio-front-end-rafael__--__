@@ -56,6 +56,7 @@ body{
 }
 .apresentacao__conteudo__texto{
     font-size: 24px;
+     text-align: justify;
     font-family: var(--fonte-secundaria);
 }
 
