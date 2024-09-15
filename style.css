@@ -102,3 +102,7 @@ body{
 h2 {
     color: #09110a;
   }
+img{
+    filter: drop-shadow(1px 1px 20px yellow);
+    border-radius: 10px;
+}
